@@ -259,6 +259,4 @@ def draw_sunset():
 
 # Example usage
 fig, ax = plt.subplots(figsize=(10, 6))
-draw_tropical_island_sunset(ax)
-ax.axis('off')
-plt.show()
+draw_sunset(ax)
