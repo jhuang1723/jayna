@@ -18,7 +18,7 @@ def draw_palm_beach_sunset(ax):
     x = np.linspace(0, 1, 100)
     y = np.linspace(0, 1, 100)
     X, Y = np.meshgrid(x, y)
-    sunset_colors = plt.cm.RdYlOr_r(Y)
+    sunset_colors = plt.cm.YlOrRd(Y) 
     ax.imshow(sunset_colors, extent=[0, 1, 0, 1], aspect='auto')
     sun = plt.Circle((0.5, 0.2), 0.15, color='#FF4500', alpha=0.6)
     ax.add_artist(sun)
