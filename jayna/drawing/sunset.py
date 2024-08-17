@@ -256,7 +256,3 @@ def draw_sunset():
     random.choice(sunset_functions)(ax)
     ax.axis('off')
     plt.show()
-
-# Example usage
-fig, ax = plt.subplots(figsize=(10, 6))
-draw_sunset(ax)
